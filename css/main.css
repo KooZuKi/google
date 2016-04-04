@@ -211,3 +211,62 @@ Bottom section site links
     letter-spacing: 0.1px;
     font-size: 14px;
 }
+@media (max-width: 661px) {
+	.searchBox input {
+		width: 80%;
+	}
+}
+@media (max-width: 532px) {
+	.bottomLinks {
+		width: 100%;
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+}
+	.right {
+		float: none;
+		margin: 0 auto;
+		padding-right: 0;
+		padding-left: 0;
+}
+	.left {
+		float: none;
+		margin: 0 auto;
+		padding-left: 0;
+}
+	.bottomLinks ul li {
+		display: inline;
+	}
+}
+@media (max-width:428px) {
+	.topNav {
+		width: 45%;
+		padding-right: 0;
+		margin-right: 0;
+	}
+	.topNav li:first-child,
+	li:nth-child(4),
+	li:nth-child(5),
+	li:nth-child(6) {
+		display: none;
+	}
+	.searchBox img {
+		height: 70px;
+	}
+}
+@media (max-width:334px) {
+	.topNav {
+		width: 45%;
+		}
+}
+@media (max-width: 530px) {
+	.searchButtons {
+		display: none;
+	}
+}
+@media (max-width: 328px) {
+	.topNav {
+		width: 50%;
+	}
+}
+
